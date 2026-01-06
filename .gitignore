@@ -1,0 +1,38 @@
+# Python-generated files
+src/graph_solver/set_env.py
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.coverage
+.coverage.*
+agent_history.gif
+static/browser_history/*.gif
+
+# Virtual environments
+.venv
+venv/
+
+# Environment variables
+.env
+
+# user conf
+conf.yaml
+
+.idea/
+.langgraph_api/
+
+# coverage report
+coverage.xml
+coverage/
+
+**/.*   # 忽略所有隐藏文件 & 隐藏目录
+
+# 但不忽略以下文件
+!.gitignore
+!.gitattributes
+web/node_modules
+*SCIPOptSuite*
+
