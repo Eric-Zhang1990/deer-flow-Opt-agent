@@ -16,21 +16,21 @@
     "placeholderWithRag": "What can I do for you? \nYou may refer to RAG resources by using @."
   },
   "header": {
-    "title": "Egent Trader"
+    "title": "Opt Agent"
   },
   "hero": {
     "title": "电力交易",
     "subtitle": "触手可及",
-    "description": "认识 Egent Trader，您的电力交易助手。它能够建设基于Agent的虚拟电厂交易员，既能处理灵活多变的虚拟电厂交易场景，又是一个会写代码的电力交易员。",
-    "footnote": "* Egent-Trader: Egent是Energy+Agent，Trader是其中的电力交易员"
+    "description": "认识 Opt Agent，您的电力交易助手。它能够建设基于Agent的虚拟电厂交易员，既能处理灵活多变的虚拟电厂交易场景，又是一个会写代码的电力交易员。",
+    "footnote": ""
   },
   "settings": {
-    "title": "Egent Trader Settings",
-    "description": "Manage your Egent Trader settings here.",
+    "title": "Opt Agent Settings",
+    "description": "Manage your Opt Agent settings here.",
     "addServers": "Add Servers",
     "cancel": "Cancel",
     "addNewMCPServers": "Add New MCP Servers",
-    "mcpConfigDescription": "Egent Trader uses the standard JSON MCP config to create a new server.",
+    "mcpConfigDescription": "Opt Agent uses the standard JSON MCP config to create a new server.",
     "pasteConfigBelow": "Paste your config below and click \"Add\" to add new servers.",
     "add": "Add",
     "general": {
@@ -45,7 +45,7 @@
     },
     "mcp": {
       "title": "MCP Servers",
-      "description": "The Model Context Protocol boosts Egent Trader by integrating external tools for tasks like private domain searches, web browsing, food ordering, and more. Click here to",
+      "description": "The Model Context Protocol boosts Opt Agent by integrating external tools for tasks like private domain searches, web browsing, food ordering, and more. Click here to",
       "learnMore": "learn more about MCP.",
       "enableDisable": "Enable/disable server",
       "deleteServer": "Delete server",
@@ -72,17 +72,17 @@
   "footer": {
     "quote": "Originated from Open Source, give back to Open Source.",
     "license": "Licensed under MIT License",
-    "copyright": "Egent Trader"
+    "copyright": "Opt Agent"
   },
   "chat": {
     "page": {
-        "loading": "Loading Egent Trader...",
+        "loading": "Loading Opt Agent...",
         "welcomeUser": "Welcome, {username}",
-        "starOnGitHub": "Star Egent Trader on GitHub"
+        "starOnGitHub": "Star Opt Agent on GitHub"
     },
     "welcome": {
       "greeting": "👋 Hello, there!",
-      "description": "欢迎来到 Egent Trader, 它能够处理灵活多变的虚拟电厂交易场景，是一个会写代码的电力交易员，并且能够不断自我进化以适应新的场景。它能够：1. 自主完成日常的交易任务 2. 根据场景变化动态生成新的交易能力 3. 能够处理多种资源类型，并根据需求灵活调整策略"
+      "description": "欢迎来到 Opt Agent, 它能够处理灵活多变的虚拟电厂交易场景，是一个会写代码的电力交易员，并且能够不断自我进化以适应新的场景。它能够：1. 自主完成日常的交易任务 2. 根据场景变化动态生成新的交易能力 3. 能够处理多种资源类型，并根据需求灵活调整策略"
     },
     "conversationStarters": [
     ],
@@ -90,19 +90,19 @@
       "deepThinking": "Deep Thinking",
       "deepThinkingTooltip": {
         "title": "Deep Thinking Mode: {status}",
-        "description": "When enabled, Egent Trader will use reasoning model ({model}) to generate more thoughtful plans."
+        "description": "When enabled, Opt Agent will use reasoning model ({model}) to generate more thoughtful plans."
       },
       "investigation": "Investigation",
       "investigationTooltip": {
         "title": "Investigation Mode: {status}",
-        "description": "When enabled, Egent Trader will perform a quick search before planning. This is useful for researches related to ongoing events and news."
+        "description": "When enabled, Opt Agent will perform a quick search before planning. This is useful for researches related to ongoing events and news."
       },
       "enhancePrompt": "Enhance prompt with AI",
       "on": "On",
       "off": "Off"
     },
     "research": {
-      "deepResearch": "Egent Trader",
+      "deepResearch": "Opt Agent",
       "researching": "Generating...",
       "generatingReport": "Generating report...",
       "reportGenerated": "Report generated",
@@ -130,9 +130,9 @@
     },
     "messages": {
       "replaying": "Replaying",
-      "replayDescription": "Egent Trader is now replaying the conversation...",
+      "replayDescription": "Opt Agent is now replaying the conversation...",
       "replayHasStopped": "The replay has been stopped.",
-      "replayModeDescription": "You're now in Egent Trader's replay mode. Click the \"Play\" button on the right to start.",
+      "replayModeDescription": "You're now in Opt Agent's replay mode. Click the \"Play\" button on the right to start.",
       "play": "Play",
       "fastForward": "Fast Forward",
       "demoNotice": "* This site is for demo purposes only. If you want to try your own question, please",
@@ -149,7 +149,7 @@
   "landing": {
     "caseStudies": {
       "title": "Case Studies",
-      "description": "See Egent Trader in action through replays.",
+      "description": "See Opt Agent in action through replays.",
       "clickToWatch": "Click to watch replay",
       "cases": [
         {
@@ -188,7 +188,7 @@
     },
     "coreFeatures": {
       "title": "Core Features",
-      "description": "Find out what makes Egent Trader effective.",
+      "description": "Find out what makes Opt Agent effective.",
       "features": [
         {
           "name": "Dive Deeper and Reach Wider",
@@ -217,8 +217,8 @@
       "description": "Experience the agent teamwork with our Supervisor + Handoffs design pattern."
     },
     "joinCommunity": {
-      "title": "Join the Egent Trader Community",
-      "description": "Contribute brilliant ideas to shape the future of Egent Trader. Collaborate, innovate, and make impacts.",
+      "title": "Join the Opt Agent Community",
+      "description": "Contribute brilliant ideas to shape the future of Opt Agent. Collaborate, innovate, and make impacts.",
       "contributeNow": "Contribute Now"
     }
   }

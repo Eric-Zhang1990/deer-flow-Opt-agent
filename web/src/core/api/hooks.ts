@@ -29,13 +29,13 @@ export function useReplayMetadata() {
         setError(false);
         setTitle(title ?? null);
         if (title) {
-          document.title = `${title} - Egent Trader`;
+          document.title = `${title} - Opt Agent`;
         }
       })
       .catch(() => {
         setError(true);
         setTitle("Error: the replay is not available.");
-        document.title = "Egent Trader";
+        document.title = "Opt Agent";
       })
       .finally(() => {
         isLoading.current = false;

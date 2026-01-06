@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 """
-Server script for running the Egent Trader API.
+Server script for running the Opt Agent API.
 """
 
 import argparse
@@ -32,7 +32,7 @@ signal.signal(signal.SIGINT, handle_shutdown)
 
 if __name__ == "__main__":
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description="Run the Egent Trader API server")
+    parser = argparse.ArgumentParser(description="Run the Opt Agent API server")
     parser.add_argument(
         "--reload",
         action="store_true",
@@ -66,7 +66,7 @@ if __name__ == "__main__":
         reload = True
 
     try:
-        logger.info(f"Starting Egent Trader API server on {args.host}:{args.port}")
+        logger.info(f"Starting Opt Agent API server on {args.host}:{args.port}")
         uvicorn.run(
             "src.server:app",
             host=args.host,

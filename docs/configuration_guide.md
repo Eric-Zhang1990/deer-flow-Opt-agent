@@ -9,9 +9,9 @@ cd deer-flow
 cp conf.yaml.example conf.yaml
 ```
 
-## Which models does Egent Trader support?
+## Which models does Opt Agent support?
 
-In Egent Trader, we currently only support non-reasoning models. This means models like OpenAI's o1/o3 or DeepSeek's R1 are not supported yet, but we plan to add support for them in the future. Additionally, all Gemma-3 models are currently unsupported due to the lack of tool usage capabilities.
+In Opt Agent, we currently only support non-reasoning models. This means models like OpenAI's o1/o3 or DeepSeek's R1 are not supported yet, but we plan to add support for them in the future. Additionally, all Gemma-3 models are currently unsupported due to the lack of tool usage capabilities.
 
 ### Supported Models
 
@@ -29,7 +29,7 @@ You can switch the model in use by modifying the `conf.yaml` file in the root di
 
 ### How to use OpenAI-Compatible models?
 
-Egent Trader supports integration with OpenAI-Compatible models, which are models that implement the OpenAI API specification. This includes various open-source and commercial models that provide API endpoints compatible with the OpenAI format. You can refer to [litellm OpenAI-Compatible](https://docs.litellm.ai/docs/providers/openai_compatible) for detailed documentation.
+Opt Agent supports integration with OpenAI-Compatible models, which are models that implement the OpenAI API specification. This includes various open-source and commercial models that provide API endpoints compatible with the OpenAI format. You can refer to [litellm OpenAI-Compatible](https://docs.litellm.ai/docs/providers/openai_compatible) for detailed documentation.
 The following is a configuration example of `conf.yaml` for using OpenAI-Compatible models:
 
 ```yaml
@@ -75,7 +75,7 @@ BASIC_MODEL:
 
 ### How to use Ollama models?
 
-Egent Trader supports the integration of Ollama models. You can refer to [litellm Ollama](https://docs.litellm.ai/docs/providers/ollama). <br>
+Opt Agent supports the integration of Ollama models. You can refer to [litellm Ollama](https://docs.litellm.ai/docs/providers/ollama). <br>
 The following is a configuration example of `conf.yaml` for using Ollama models(you might need to run the 'ollama serve' first):
 
 ```yaml
@@ -87,7 +87,7 @@ BASIC_MODEL:
 
 ### How to use OpenRouter models?
 
-Egent Trader supports the integration of OpenRouter models. You can refer to [litellm OpenRouter](https://docs.litellm.ai/docs/providers/openrouter). To use OpenRouter models, you need to:
+Opt Agent supports the integration of OpenRouter models. You can refer to [litellm OpenRouter](https://docs.litellm.ai/docs/providers/openrouter). To use OpenRouter models, you need to:
 1. Obtain the OPENROUTER_API_KEY from OpenRouter (https://openrouter.ai/) and set it in the environment variable.
 2. Add the `openrouter/` prefix before the model name.
 3. Configure the correct OpenRouter base URL.
@@ -108,7 +108,7 @@ Note: The available models and their exact names may change over time. Please ve
 
 ### How to use Azure OpenAI chat models?
 
-Egent Trader supports the integration of Azure OpenAI chat models. You can refer to [AzureChatOpenAI](https://python.langchain.com/api_reference/openai/chat_models/langchain_openai.chat_models.azure.AzureChatOpenAI.html). Configuration example of `conf.yaml`:
+Opt Agent supports the integration of Azure OpenAI chat models. You can refer to [AzureChatOpenAI](https://python.langchain.com/api_reference/openai/chat_models/langchain_openai.chat_models.azure.AzureChatOpenAI.html). Configuration example of `conf.yaml`:
 ```yaml
 BASIC_MODEL:
   model: "azure/gpt-4o-2024-08-06"
@@ -121,7 +121,7 @@ BASIC_MODEL:
 
 ### How to control search domains for Tavily?
 
-Egent Trader allows you to control which domains are included or excluded in Tavily search results through the configuration file. This helps improve search result quality and reduce hallucinations by focusing on trusted sources.
+Opt Agent allows you to control which domains are included or excluded in Tavily search results through the configuration file. This helps improve search result quality and reduce hallucinations by focusing on trusted sources.
 
 `Tips`: it only supports Tavily currently. 
 

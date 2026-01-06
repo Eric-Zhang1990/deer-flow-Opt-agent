@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "deer-flow"
 version = "0.1.0"
-description = "Egent Trader project"
+description = "Opt Agent project"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

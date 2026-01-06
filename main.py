@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 """
-Entry point script for the Egent Trader project.
+Entry point script for the Opt Agent project.
 """
 
 import argparse

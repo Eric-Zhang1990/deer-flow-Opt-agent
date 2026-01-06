@@ -9,7 +9,7 @@ IF "%MODE%"=="dev" GOTO DEV
 IF "%MODE%"=="development" GOTO DEV
 
 :PROD
-echo Starting Egent Trader in [PRODUCTION] mode...
+echo Starting Opt Agent in [PRODUCTION] mode...
 start uv run server.py
 cd web
 start pnpm start
@@ -17,7 +17,7 @@ REM Wait for user to close
 GOTO END
 
 :DEV
-echo Starting Egent Trader in [DEVELOPMENT] mode...
+echo Starting Opt Agent in [DEVELOPMENT] mode...
 start uv run server.py --reload
 cd web
 start pnpm dev

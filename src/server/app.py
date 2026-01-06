@@ -47,7 +47,7 @@ logger = logging.getLogger(__name__)
 INTERNAL_SERVER_ERROR_DETAIL = "Internal Server Error"
 
 app = FastAPI(
-    title="Egent Trader API",
+    title="Opt Agent API",
     description="API for Deer",
     version="0.1.0",
 )
