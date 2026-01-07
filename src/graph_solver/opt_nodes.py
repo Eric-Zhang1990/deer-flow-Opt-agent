@@ -386,7 +386,7 @@ def translator_node(inputs: dict) -> dict:
     requirement = inputs.get("device_health_check", "")
     writer = get_stream_writer()
     markdown_text = (
-        "#### 新奥泛能网虚拟电厂需求侧响应分配与调度计划生成\n"
+        "#### 虚拟电厂需求侧响应分配与调度计划生成\n"
         "- [🟡] 需求转译 — 将用户需求转译成运筹优化可理解的描述方式\n"
         "- [ ] 结构化处理 — 将需求转化为结构化数据\n"
         "- [ ] 代码生成 — 根据转译后的需求生成优化模型能力代码\n"
@@ -398,7 +398,7 @@ def translator_node(inputs: dict) -> dict:
     writer({f"custom_text{str(uuid4())}": markdown_text})
     result = translator_chain.invoke({"problem_description": problem_description, "requirement": requirement})
     markdown_text = (
-        "#### 新奥泛能网虚拟电厂需求侧响应分配与调度计划生成\n"
+        "#### 虚拟电厂需求侧响应分配与调度计划生成\n"
         "- [✔] 需求转译 — 将用户需求转译成运筹优化可理解的描述方式\n"
         "- [🟡] 结构化处理 — 将需求转化为结构化数据\n"
         "- [ ] 代码生成 — 根据转译后的需求生成优化模型能力代码\n"
@@ -447,7 +447,7 @@ def formulator_node(inputs: dict) -> dict:
     if device_names_en:
         result['device_names_cn'] = [device_name_map[name] for name in device_names_en]
     markdown_text = (
-        "#### 新奥泛能网虚拟电厂需求侧响应分配与调度计划生成\n"
+        "#### 虚拟电厂需求侧响应分配与调度计划生成\n"
         "- [✔] 需求转译 — 将用户需求转译成运筹优化可理解的描述方式\n"
         "- [✔] 结构化处理 — 将需求转化为结构化数据\n"
         "- [🟡] 代码生成 — 根据转译后的需求生成优化模型能力代码\n"
@@ -519,7 +519,7 @@ def coder_node(inputs: dict) -> dict:
         "solver_path": local_solver_path,
         "solver_error_info": solver_error_info})
     markdown_text = (
-        "#### 新奥泛能网虚拟电厂需求侧响应分配与调度计划生成\n"
+        "#### 虚拟电厂需求侧响应分配与调度计划生成\n"
         "- [✔] 需求转译 — 将用户需求转译成运筹优化可理解的描述方式\n"
         "- [✔] 结构化处理 — 将需求转化为结构化数据\n"
         "- [✔] 代码生成 — 根据转译后的需求生成优化模型能力代码\n"
@@ -551,7 +551,7 @@ def solver_node(inputs: dict) -> dict:
         raw_out = f.getvalue()
         result = SolverOutput(raw_output=raw_out)
         markdown_text = (
-            "#### 新奥泛能网虚拟电厂需求侧响应分配与调度计划生成\n"
+            "#### 虚拟电厂需求侧响应分配与调度计划生成\n"
             "- [✔] 需求转译 — 将用户需求转译成运筹优化可理解的描述方式\n"
             "- [✔] 结构化处理 — 将需求转化为结构化数据\n"
             "- [✔] 代码生成 — 根据转译后的需求生成优化模型能力代码\n"
@@ -710,7 +710,7 @@ def plan_node(state: dict) -> dict:
     plans.append(plan)
 
     markdown_text = (
-        "#### 新奥泛能网虚拟电厂需求侧响应分配与调度计划生成\n"
+        "#### 虚拟电厂需求侧响应分配与调度计划生成\n"
         "- [✔] 需求转译 — 将用户需求转译成运筹优化可理解的描述方式\n"
         "- [✔] 结构化处理 — 将需求转化为结构化数据\n"
         "- [✔] 代码生成 — 根据转译后的需求生成优化模型能力代码\n"
@@ -772,7 +772,7 @@ def retry_manager_node(inputs: dict) -> dict:
         else:
             return {"retry": False, "retry_count": retry_count, "solver_error_info": reason}
     markdown_text = (
-        "#### 新奥泛能网虚拟电厂需求侧响应分配与调度计划生成\n"
+        "#### 虚拟电厂需求侧响应分配与调度计划生成\n"
         "- [✔] 需求转译 — 将用户需求转译成运筹优化可理解的描述方式\n"
         "- [✔] 结构化处理 — 将需求转化为结构化数据\n"
         "- [✔] 代码生成 — 根据转译后的需求生成优化模型能力代码\n"
@@ -797,7 +797,7 @@ def interpretation_validator_node(inputs: dict) -> dict:
     })
 
     markdown_text = (
-        "#### 新奥泛能网虚拟电厂需求侧响应分配与调度计划生成\n"
+        "#### 虚拟电厂需求侧响应分配与调度计划生成\n"
         "- [✔] 需求转译 — 将用户需求转译成运筹优化可理解的描述方式\n"
         "- [✔] 结构化处理 — 将需求转化为结构化数据\n"
         "- [✔] 代码生成 — 根据转译后的需求生成优化模型能力代码\n"
