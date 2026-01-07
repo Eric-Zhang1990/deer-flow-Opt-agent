@@ -1,5 +1,7 @@
 开源DeerFlow github: https://github.com/bytedance/deer-flow
 
+环境安装参考DeerFlow的流程。
+
 ## Demo
 
 ### Video
